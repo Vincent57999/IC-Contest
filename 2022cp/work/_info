@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/user/Desktop/3D/HW1/Templates
+vJAM
+Z0 !s110 1749990880
+!i10b 1
+!s100 MMU97RoOf>c5oaEY;BX6A0
+Iz:5Ll^d:nKfU;ITYL1=CS1
+Z1 dC:/Users/user/Desktop/thematic/ic_contest/2022cp
+w1749990819
+8JAM.v
+FJAM.v
+!i122 24
+Z2 L0 1 221
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OV;L;2021.1;73
+r1
+!s85 0
+31
+Z5 !s108 1749990880.000000
+!s107 JAM.v|tb.sv|
+Z6 !s90 -reportprogress|300|tb.sv|JAM.v|+define+P2|
+!i113 1
+Z7 !s92 +define+P2
+Z8 tCvgOpt 0
+n@j@a@m
+vjam_my
+!s110 1749990740
+!i10b 1
+!s100 MQo>Vj:n:l]Vk4eLb3T^G3
+I@>:?PQYVk;_hCb_c6ZCLC1
+R1
+w1742298228
+8C:/Users/user/Desktop/thematic/ic_contest/2022cp/jam_my.v
+FC:/Users/user/Desktop/thematic/ic_contest/2022cp/jam_my.v
+!i122 20
+R2
+R3
+R4
+r1
+!s85 0
+31
+!s108 1749990740.000000
+!s107 C:/Users/user/Desktop/thematic/ic_contest/2022cp/jam_my.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/user/Desktop/thematic/ic_contest/2022cp/jam_my.v|
+!i113 1
+o-work work
+R8
+vtestfixture
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 NGc3;4jQlI_?WW3zhClEi3
+IaSXh65QgM3A0V`oW5nObI2
+S1
+R1
+w1749990829
+8tb.sv
+Ftb.sv
+!i122 24
+L0 18 172
+R3
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 JAM.v|tb.sv|
+R6
+!i113 1
+R7
+R8
