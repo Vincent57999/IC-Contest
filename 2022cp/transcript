@@ -1,0 +1,143 @@
+# Compile of JAM.v was successful.
+# Compile of tb.sv was successful.
+# Compile of jam_my.v was successful.
+# 3 compiles, 0 failed with no errors.
+vlog tb.sv JAM.v +define+P2
+# Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+# Start time: 20:32:36 on Jun 15,2025
+# vlog -reportprogress 300 tb.sv JAM.v "+define+P2" 
+# -- Compiling module testfixture
+# -- Compiling module JAM
+# 
+# Top level modules:
+# 	testfixture
+# 	JAM
+# End time: 20:32:36 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui work.testfixture
+# vsim -gui work.testfixture 
+# Start time: 20:32:37 on Jun 15,2025
+# Loading sv_std.std
+# Loading work.testfixture
+# Loading work.jam_my
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: tb.sv Line: 52
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: tb.sv Line: 53
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpMDA' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: tb.sv Line: 54
+add wave -r *
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpfile'
+#    Time: 0 ps  Iteration: 0  Process: /testfixture/#INITIAL#51 File: tb.sv Line: 52
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpvars'
+#    Time: 0 ps  Iteration: 0  Process: /testfixture/#INITIAL#51 File: tb.sv Line: 53
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpMDA'
+#    Time: 0 ps  Iteration: 0  Process: /testfixture/#INITIAL#51 File: tb.sv Line: 54
+# *******************************
+# ** Simulation Start          **
+# *******************************
+# PATTERN:   2
+# -------------- Cost Table --------------
+# Jobs       0   1   2   3   4   5   6   7
+# worker0:  54  59  59  59  32  40  62  40
+# worker1:  54  32  32  79  32  38  32  62
+# worker2:  54  54  30  38  32  38  59  54
+# worker3:  30  59  32  32  62  40  45  79
+# worker4:  32  32  38  32  62  38  62  32
+# worker5:  79  45  32  62  32  32  32  59
+# worker6:  32  38  32  59  54  30  30  45
+# worker7:  30  79  32  32  62  30  45  32
+# ----------------------------------------------------------------------
+# Get Valid at cycle:    579997
+# receive MinCost/MatchCount=  250/ 6 , golden MinCost/MatchCount= 250/ 6
+# ----------------------------------------------------------------------
+# *************************
+# **  FUNCTION  CORRECT  **
+# *************************
+# 
+# ** Note: $finish    : tb.sv(182)
+#    Time: 5799965 ns  Iteration: 1  Instance: /testfixture
+# 1
+# Break in Module testfixture at tb.sv line 182
+# ** Error: ¦¨³©¡
+#        Unable to replace existing ini file (C:/Users/user/Desktop/thematic/ic_contest/2022cp/2022cp.mpf).  File can not be renamed.
+# ** Error: ¦¨³©¡
+#        Unable to replace existing ini file (C:/Users/user/Desktop/thematic/ic_contest/2022cp/2022cp.mpf).  File can not be renamed.
+# Compile of JAM.v was successful.
+# Compile of tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Error: ¦¨³©¡
+#        Unable to replace existing ini file (C:/Users/user/Desktop/thematic/ic_contest/2022cp/2022cp.mpf).  File can not be renamed.
+# ** Error: ¦¨³©¡
+#        Unable to replace existing ini file (C:/Users/user/Desktop/thematic/ic_contest/2022cp/2022cp.mpf).  File can not be renamed.
+vlog tb.sv JAM.v +define+P2
+# Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+# Start time: 20:34:40 on Jun 15,2025
+# vlog -reportprogress 300 tb.sv JAM.v "+define+P2" 
+# -- Compiling module testfixture
+# -- Compiling module JAM
+# 
+# Top level modules:
+# 	testfixture
+# End time: 20:34:40 on Jun 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui work.testfixture
+# ** Error: ¦¨³©¡
+#        Unable to replace existing ini file (C:/Users/user/Desktop/thematic/ic_contest/2022cp/2022cp.mpf).  File can not be renamed.
+# ** Error: ¦¨³©¡
+#        Unable to replace existing ini file (C:/Users/user/Desktop/thematic/ic_contest/2022cp/2022cp.mpf).  File can not be renamed.
+# End time: 20:34:41 on Jun 15,2025, Elapsed time: 0:02:04
+# Errors: 9, Warnings: 9
+# vsim -gui work.testfixture 
+# Start time: 20:34:41 on Jun 15,2025
+# Loading sv_std.std
+# Loading work.testfixture
+# Loading work.JAM
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: tb.sv Line: 52
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: tb.sv Line: 53
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$fsdbDumpMDA' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /testfixture File: tb.sv Line: 54
+add wave -r *
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpfile'
+#    Time: 0 ps  Iteration: 0  Process: /testfixture/#INITIAL#51 File: tb.sv Line: 52
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpvars'
+#    Time: 0 ps  Iteration: 0  Process: /testfixture/#INITIAL#51 File: tb.sv Line: 53
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$fsdbDumpMDA'
+#    Time: 0 ps  Iteration: 0  Process: /testfixture/#INITIAL#51 File: tb.sv Line: 54
+# *******************************
+# ** Simulation Start          **
+# *******************************
+# PATTERN:   2
+# -------------- Cost Table --------------
+# Jobs       0   1   2   3   4   5   6   7
+# worker0:  54  59  59  59  32  40  62  40
+# worker1:  54  32  32  79  32  38  32  62
+# worker2:  54  54  30  38  32  38  59  54
+# worker3:  30  59  32  32  62  40  45  79
+# worker4:  32  32  38  32  62  38  62  32
+# worker5:  79  45  32  62  32  32  32  59
+# worker6:  32  38  32  59  54  30  30  45
+# worker7:  30  79  32  32  62  30  45  32
+# ----------------------------------------------------------------------
+# Get Valid at cycle:    579997
+# receive MinCost/MatchCount=  250/ 6 , golden MinCost/MatchCount= 250/ 6
+# ----------------------------------------------------------------------
+# *************************
+# **  FUNCTION  CORRECT  **
+# *************************
+# 
+# ** Note: $finish    : tb.sv(182)
+#    Time: 5799965 ns  Iteration: 1  Instance: /testfixture
+# 1
+# Break in Module testfixture at tb.sv line 182
+# ** Error: ¦¨³©¡
+#        Unable to replace existing ini file (C:/Users/user/Desktop/thematic/ic_contest/2022cp/2022cp.mpf).  File can not be renamed.
+# ** Error: ¦¨³©¡
+#        Unable to replace existing ini file (C:/Users/user/Desktop/thematic/ic_contest/2022cp/2022cp.mpf).  File can not be renamed.
+# End time: 20:37:51 on Jun 15,2025, Elapsed time: 0:03:10
+# Errors: 5, Warnings: 4
+# Closing project C:/Users/user/Desktop/thematic/ic_contest/2022cp/2022cp.mpf
